@@ -1,3 +1,5 @@
+using System;
+
 public class Entry
 {
     // Attributes
@@ -8,6 +10,7 @@ public class Entry
     // Behaviors, Called Methods
     public void Display()
     {
-        Console.WriteLine($"{_date} -- {_prompt} \n {_response}");
+        Console.WriteLine($"{_date} -- {_prompt}");
+        Console.WriteLine($"{_response}");
     }
 }
