@@ -5,8 +5,8 @@ public class Comment
 
     public Comment(string name, string words)
     {
-        name = _name;
-        words = _words;
+        _name = name;
+        _words = words;
     }
     
     public void Display()

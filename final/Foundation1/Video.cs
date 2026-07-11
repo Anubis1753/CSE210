@@ -8,9 +8,9 @@ public class Video
 
     public Video(string videoTitle, string videoAuthor, int lengthSeconds)
     {
-        videoTitle = _videoTitle;
-        videoAuthor = _videoAuthor;
-        lengthSeconds = _lengthSeconds;
+        _videoTitle = videoTitle;
+        _videoAuthor = videoAuthor;
+        _lengthSeconds = lengthSeconds;
     }
 
     public void NewComment(Comment comment)
